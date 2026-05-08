@@ -1,12 +1,14 @@
 import React from 'react';
+import image from '../../public/immage.png'
+
 
 const BeatsHero = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-[#ff8a8a] to-[#f54d4d] text-white font-sans overflow-hidden">
 
             <header className="flex justify-between items-center px-8 py-6 md:px-20">
-                <div className="w-10">
-                    <img src="/logo.png" alt="Logo" className="w-full" />
+                <div className="text-5xl font-bold tracking-wide">
+									B
                 </div>
 
                 <div className="flex items-center gap-6 md:gap-10">
@@ -33,7 +35,7 @@ const BeatsHero = () => {
 
                 <div className="w-full md:w-1/2 flex justify-center relative">
                     <img
-                        src="/headphones.png"
+                        src={image}
                         alt="Beats Pro"
                         className="w-4/5 md:w-full max-w-[550px] drop-shadow-[0_35px_35px_rgba(0,0,0,0.4)] -rotate-6 transform transition-transform hover:rotate-0 duration-700"
                     />
